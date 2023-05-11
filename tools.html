@@ -6,12 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tools</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 
-</head>
 
+</head>
+    <style>
+        .col-md-8 p {
+            margin: 3rem 0 3rem 3rem;
+            padding-right:2rem;
+        }
+
+        .col-md-8 h1, h2 {
+            margin: 3rem 0 3rem 3rem;   
+        }
+    </style>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
@@ -35,44 +46,120 @@
             </div>
         </div>
     </nav>
-
-    <div class="container">
-        <h1 class="m-5">Tools Used</h1>
-        <h2 class="m-5">Javascript</h2>
-        <p class="w-50 m-5">
-            JavaScript é uma linguagem de programação utilizada principalmente para adicionar interatividade e
-            comportamento dinâmico a páginas da web. É uma linguagem client-side, o que significa que ela é executada no
-            navegador do usuário e pode ser usada para manipular o Document Object Model (DOM) de uma página da web,
-            lidar com eventos do usuário como cliques e teclas, fazer solicitações HTTP para servidores e muito mais.
-        </p>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="container">
+                <h1 >Tools Used</h1>
+                <h2 >Javascript</h2>
+                <p >
+                    JavaScript é uma linguagem de programação utilizada principalmente para adicionar interatividade e
+                    comportamento dinâmico a páginas da web. É uma linguagem client-side, o que significa que ela é
+                    executada no
+                    navegador do usuário e pode ser usada para manipular o Document Object Model (DOM) de uma página da
+                    web,
+                    lidar com eventos do usuário como cliques e teclas, fazer solicitações HTTP para servidores e muito
+                    mais.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img src="./imgs/illustration-tools-1.svg" class="illustration"
+                alt="Ilustração de um homem olhando através de um telescópio.">
+        </div>
     </div>
-    <div class="container">
-        <h2 class="m-5">HTML</h2>
-        <p class="w-50 m-5">
-            HTML (Hypertext Markup Language) é a linguagem padrão usada para criar páginas da web. É uma linguagem de
-            marcação que usa tags para descrever a estrutura e o conteúdo da página da web.
+    <div class="row mb-5">
+        <div class="col-md-8">
+            <div class="container ">
+                <h2>HTML</h2>
+                <p >
+                    HTML (Hypertext Markup Language) é a linguagem padrão usada para criar páginas da web. É uma
+                    linguagem de
+                    marcação que usa tags para descrever a estrutura e o conteúdo da página da web.
 
-            As tags HTML são usadas para definir diferentes tipos de elementos na página, como cabeçalhos, parágrafos,
-            imagens, links, formulários e muito mais. A estrutura da página é definida usando uma hierarquia de
-            elementos aninhados, onde os elementos pai contêm elementos filhos.
-        </p>
+                    As tags HTML são usadas para definir diferentes tipos de elementos na página, como cabeçalhos,
+                    parágrafos,
+                    imagens, links, formulários e muito mais. A estrutura da página é definida usando uma hierarquia de
+                    elementos aninhados, onde os elementos pai contêm elementos filhos.
+                </p>
+            </div>
+
+        </div>
+        <div class="col-md-4">
+            <img src="./imgs/illustration-tools-3.svg" class="illustration"
+                alt="Ilustração de uma mulher carregando um lâmpada gigante acesa.">
+        </div>
     </div>
-    <div class="container">
-        <h2 class="m-5">CSS</h2>
-        <p class="w-50 m-5">
-            CSS (Cascading Style Sheets) é uma linguagem de estilo usada para definir a aparência e o layout de páginas
-            da web escritas em HTML.
+    <div class="row">
+        <div class="col-md-8">
+            <div class="container">
+                <h2 >CSS</h2>
+                <p >
+                    CSS (Cascading Style Sheets) é uma linguagem de estilo usada para definir a aparência e o layout de
+                    páginas
+                    da web escritas em HTML.
 
-            Com o CSS, é possível controlar o estilo de diversos elementos HTML, como fontes, cores, tamanhos,
-            espaçamentos, bordas, imagens de fundo e muito mais. O CSS permite separar a apresentação visual da página
-            do seu conteúdo, tornando mais fácil e organizado o desenvolvimento e manutenção de uma página web.
+                    Com o CSS, é possível controlar o estilo de diversos elementos HTML, como fontes, cores, tamanhos,
+                    espaçamentos, bordas, imagens de fundo e muito mais. O CSS permite separar a apresentação visual da
+                    página
+                    do seu conteúdo, tornando mais fácil e organizado o desenvolvimento e manutenção de uma página web.
 
-            O CSS usa seletores para escolher quais elementos HTML serão estilizados e regras para especificar como eles
-            serão estilizados. É possível definir estilos para um elemento específico, um grupo de elementos ou para
-            toda a página.
-        </p>
+                    O CSS usa seletores para escolher quais elementos HTML serão estilizados e regras para especificar
+                    como eles
+                    serão estilizados. É possível definir estilos para um elemento específico, um grupo de elementos ou
+                    para
+                    toda a página.
+                </p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <img src="./imgs/illustration-tools-2.svg" class="illustration"
+                alt="Ilustração de um mulher olhando para o 'holograma' de um formulário.">
+        </div>
     </div>
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class=" mb-4 text-start ml-auto contact-title">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./imgs/illustration_contact.svg" alt="Illustration" class="img-fluid mt-5">
+                </div>
+                <div class="col-md-6">
+                    <form action="#" method="post">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24">
+                        <use xlink:href="#bootstrap"></use>
+                    </svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">2022 Company, Inc</span>
+            </div>
 
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="https://google.com"><i class="bi bi-linkedin"></i></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><i class="bi bi-github "></i></a></li>
+            </ul>
+        </footer>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>

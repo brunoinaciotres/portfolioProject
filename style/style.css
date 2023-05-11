@@ -1,6 +1,10 @@
+body{
+  overflow-x: hidden;
+}
+
 .nav-link:hover {
- text-decoration: underline;
- color: #fff5;
+  text-decoration: underline;
+  color: #fff5;
 }
 
 div i.bi {
@@ -11,9 +15,16 @@ div i.bi {
 div i.bi:hover {
   color: #0d6efd;
   cursor: pointer;
- 
+
 }
 
 footer i.bi {
-   font-size: 2rem;
+  font-size: 2rem;
+}
+
+.illustration {
+  height: 300px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
